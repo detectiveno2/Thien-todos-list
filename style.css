@@ -170,6 +170,19 @@ select {
     align-content: center;
   }
 
+  form input {
+    width: 80%;
+  }
+
+  .select {
+    min-width: 45%;
+    margin: 2rem;
+  }
+
+  .select select {
+    width: 100%;
+  }
+
   .select::after {
     padding: 1.4rem;
   }
